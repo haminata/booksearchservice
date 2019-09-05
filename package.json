@@ -1,0 +1,22 @@
+{
+  "name": "bookservicesearch",
+  "version": "1.0.0",
+  "description": "book serach service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haminata/bookservicesearch.git"
+  },
+  "author": "Haminata Camara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haminata/bookservicesearch/issues"
+  },
+  "homepage": "https://github.com/haminata/bookservicesearch#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
