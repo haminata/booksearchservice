@@ -43,8 +43,7 @@ app.get('/', function (req, res) {
             // str has response body
             console.log(response.headers);
             console.log(response.statusCode);
-            console.log(str);
-            res.json(str);
+            res.json(JSON.parse(str));
         });
     };
 
